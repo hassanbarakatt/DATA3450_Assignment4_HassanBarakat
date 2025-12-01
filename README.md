@@ -57,7 +57,7 @@ Author
 
 Hassan Barakat
 
-***************Asn4_HassanBarakat_Final.ipynb
+***************Asn4_HassanBarakat_Final.ipynb**************
 
 This notebook is a complete machine learning pipeline for a Credit Risk Classification task, designed to predict whether a loan will default (loan_status = 1) or not.
 
@@ -99,4 +99,5 @@ Metric: It uses the F1-score to judge performance, which is better than accuracy
 Refitting: After finding the best model (typically Random Forest here), it retrains that model on the entire training dataset (X, y) to maximize learning.
 
 Testing: The final cell loads a separate test.csv, passes it through the exact same pipeline, and outputs the final F1 score, Classification Report, and Confusion Matrix to prove the model works on unseen data.
+
 
